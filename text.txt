@@ -1,0 +1,15 @@
+#august_3
+#1722
+npm install
+
+PS C:\Users\Semester7\Desktop\estate_web\folder_coverD\estate_bear> npm install
+npm error code ENOENT
+npm error syscall open
+npm error path C:\Users\Semester7\Desktop\estate_web\folder_coverD\estate_bear\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\Semester7\Desktop\estate_web\folder_coverD\estate_bear\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+
+npm error A complete log of this run can be found in: C:\Users\Semester7\AppData\Local\npm-cache\_logs\2024-08-03T11_51_39_816Z-debug-0.log
+PS C:\Users\Semester7\Desktop\estate_web\folder_coverD\estate_bear> 
