@@ -43,9 +43,9 @@ const toggleDropdown = () => {
       <div className="flex gap-10 items-center">
         <Image src={"/logo.svg"} width={80} height={80} alt="logo"></Image>
         <ul className="hidden md:flex gap-10">
-          <Link href={'/'}><li className={`'hover:bg-slate-100 px-4 p-2 cursor-pointer rounded-lg text-black' ${path=='/' && 'bg-slate-200 rounded-lg text-black'}`}>Sale</li></Link>
-          <Link href={'/'}><li className="hover:bg-slate-100 px-4 p-2 cursor-pointer rounded-lg text-black">Rent</li></Link>
-          <Link href={'/'}><li className="hover:bg-slate-100 px-4 p-2 cursor-pointer rounded-lg text-black">Agent finder</li></Link>
+          <Link href={'/'}><li className={`'hover:bg-slate-100 px-4 p-2 cursor-pointer rounded-lg text-black' ${path=='/' && 'bg-slate-200 rounded-lg text-black'}`}>Sale1</li></Link>
+          <Link href={'/'}><li className="hover:bg-slate-100 px-4 p-2 cursor-pointer rounded-lg text-black">Rent2</li></Link>
+          <Link href={'/'}><li className="hover:bg-slate-100 px-4 p-2 cursor-pointer rounded-lg text-black">Agent finder3</li></Link>
           
         </ul>
       </div>
@@ -62,7 +62,7 @@ const toggleDropdown = () => {
         <div className="relative">
       <ul className="flex gap-8 items-center">
         <Link href={'/add-new-listing'}>
-          <li><Button className='flex gap-2'>Post<Plus className="h-5 w-5"/></Button></li>
+          <li><Button className='flex gap-2'>Post4<Plus className="h-5 w-5"/></Button></li>
         </Link>
         <li onClick={toggleDropdown} className="cursor-pointer">
           {session && (
@@ -95,7 +95,7 @@ const toggleDropdown = () => {
     </div>
 
 
-        {!session && <Link href={'/login'}> <Button className="hover:bg-slate-200 hover:text-black  bg-black text-white px-4 p-4 rounded-lg">Login</Button> </Link>}
+        {!session && <Link href={'/login'}> <Button className="hover:bg-slate-200 hover:text-black  bg-black text-white px-4 p-4 rounded-lg">Login5</Button> </Link>}
         
         {/* <button onClick={() => signIn("github")}>Sign in Using Github</button> */}
 
