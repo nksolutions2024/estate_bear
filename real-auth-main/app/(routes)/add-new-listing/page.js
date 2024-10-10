@@ -5,8 +5,9 @@ const AddNewListing = () => {
       <div className='flex items-center justify-center'>
         <h2 className='font-bold'>Add New Listing</h2>
         <div className='' >
-        <h2>Enter Address which you want</h2>
+        <h2>Enter Address which you wanttt</h2>
         
+        {/* this is unfinish js file */}
         <GoogleAddressSearch/>
         </div>
     </div>
